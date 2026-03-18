@@ -1,0 +1,119 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: API - JEDi
+meta:
+  id: wrk_701eff23bb124440993eb1318451cc84
+  created: 1773856362182
+  modified: 1773857036357
+  description: ""
+collection:
+  - url: http://localhost:8000/api/v1/usuarios/login
+    name: login
+    meta:
+      id: req_56332bb56eca4dd8aef3604498592e7d
+      created: 1773856362192
+      modified: 1773861381140
+      isPrivate: false
+      description: ""
+      sortKey: -1773856362192
+    method: POST
+    body:
+      mimeType: multipart/form-data
+      params:
+        - name: username
+          value: admin@jedieduca.com.br
+          description: ""
+          disabled: false
+        - name: password
+          value: JediEduc@2026
+          description: ""
+          disabled: false
+    headers:
+      - name: Content-Type
+        value: multipart/form-data
+      - name: User-Agent
+        value: insomnia/12.4.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8000/api/v1/usuarios/signup
+    name: usuario_novo
+    meta:
+      id: req_3036585200024a06948ac7cbc67d8608
+      created: 1773857087438
+      modified: 1773861404432
+      isPrivate: false
+      description: ""
+      sortKey: -1773857087438
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"nome": "Angelo",
+        	"sobrenome": "Paolino",
+        	"email": "admin@jedieduca.com.br",
+        	"senha": "JediEduc@2026",
+        	"eh_admin": "TRUE"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/12.4.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8000/api/v1/estatisticas/avaliacao
+    name: estatisticas_avaliacao
+    meta:
+      id: req_8e423ec4d0f84dbabd2f51587d3bd018
+      created: 1773861445290
+      modified: 1773861673104
+      isPrivate: false
+      description: ""
+      sortKey: -1773861445290
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.4.0
+        description: ""
+        disabled: false
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzc0NDY2MjExLCJpYXQiOjE3NzM4NjE0MTEsInN1YiI6IjEifQ.sZrrHm4q3LO31falu_DQ2oGsZdPlF3w75mAZUNcqjC4
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_914fe946272abc44b59b8acd6cb7d31ed9295d90
+    created: 1773856362189
+    modified: 1773856362189
+environments:
+  name: Base Environment
+  meta:
+    id: env_914fe946272abc44b59b8acd6cb7d31ed9295d90
+    created: 1773856362188
+    modified: 1773856362188
+    isPrivate: false
