@@ -4,7 +4,7 @@ name: API - JEDi
 meta:
   id: wrk_701eff23bb124440993eb1318451cc84
   created: 1773856362182
-  modified: 1773857036357
+  modified: 1773861766757
   description: ""
 collection:
   - url: http://localhost:8000/api/v1/usuarios/login
