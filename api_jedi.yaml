@@ -104,6 +104,136 @@ collection:
         send: true
         store: true
       rebuildPath: true
+  - url: http://localhost:8000/api/v1/regras
+    name: regras
+    meta:
+      id: req_1ac1ca3f3eb442d59355f01a03cdf988
+      created: 1773928169018
+      modified: 1773928430475
+      isPrivate: false
+      description: ""
+      sortKey: -1773928169018
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.4.0
+        description: ""
+        disabled: false
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzc0NDY2MjExLCJpYXQiOjE3NzM4NjE0MTEsInN1YiI6IjEifQ.sZrrHm4q3LO31falu_DQ2oGsZdPlF3w75mAZUNcqjC4
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8000/api/v1/nuvem_palavras
+    name: nuvem_palavras
+    meta:
+      id: req_d449f9a6afbb4e778d9123f91441ab57
+      created: 1773928448972
+      modified: 1773928463442
+      isPrivate: false
+      description: ""
+      sortKey: -1773894807154
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.4.0
+        description: ""
+        disabled: false
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzc0NDY2MjExLCJpYXQiOjE3NzM4NjE0MTEsInN1YiI6IjEifQ.sZrrHm4q3LO31falu_DQ2oGsZdPlF3w75mAZUNcqjC4
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8000/api/v1/estatisticas/categoria_turma
+    name: estatisticas_categoria_turma
+    meta:
+      id: req_deb3717272f14ef99439435747d31447
+      created: 1773928732075
+      modified: 1773928742485
+      isPrivate: false
+      description: ""
+      sortKey: -1773859266364
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.4.0
+        description: ""
+        disabled: false
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzc0NDY2MjExLCJpYXQiOjE3NzM4NjE0MTEsInN1YiI6IjEifQ.sZrrHm4q3LO31falu_DQ2oGsZdPlF3w75mAZUNcqjC4
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8000/api/v1/estatisticas/partida_escola
+    name: estatisticas_partida_escola
+    meta:
+      id: req_02f1522be7404a04b3e2d64ceefcf86a
+      created: 1773928846392
+      modified: 1773928857573
+      isPrivate: false
+      description: ""
+      sortKey: -1773858176901
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.4.0
+        description: ""
+        disabled: false
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzc0NDY2MjExLCJpYXQiOjE3NzM4NjE0MTEsInN1YiI6IjEifQ.sZrrHm4q3LO31falu_DQ2oGsZdPlF3w75mAZUNcqjC4
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8000/api/v1/estatisticas/perfil_noticia
+    name: estatisticas_perfil_noticia
+    meta:
+      id: req_c1d92dfb681b43ccbd16308fff203b4c
+      created: 1773928888118
+      modified: 1773928896957
+      isPrivate: false
+      description: ""
+      sortKey: -1773857632169.5
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.4.0
+        description: ""
+        disabled: false
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzc0NDY2MjExLCJpYXQiOjE3NzM4NjE0MTEsInN1YiI6IjEifQ.sZrrHm4q3LO31falu_DQ2oGsZdPlF3w75mAZUNcqjC4
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
 cookieJar:
   name: Default Jar
   meta:
