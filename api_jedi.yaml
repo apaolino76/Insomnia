@@ -234,6 +234,40 @@ collection:
         send: true
         store: true
       rebuildPath: true
+  - url: http://localhost:8000/api/v1/metricas/tempo_leitura
+    name: tempo_leitura
+    meta:
+      id: req_1ff8c07b5e654f3dbb63a6be624ca1f4
+      created: 1773938807461
+      modified: 1773938986602
+      isPrivate: false
+      description: ""
+      sortKey: -1773856724815
+    method: POST
+    body:
+      mimeType: application/json
+      text: >-
+        {
+        	"texto": "Para Luis Zubeldía, a derrota do Fluminense para o Vasco tem origem em erros pontuais de sua equipe e também cansaço de alguns jogadores importantes para manter o controle. Após a partida, o treinador analisou o revés de virada e criticou a postura da equipe na reta final."
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/12.4.0
+        description: ""
+        disabled: false
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzc0NDY2MjExLCJpYXQiOjE3NzM4NjE0MTEsInN1YiI6IjEifQ.sZrrHm4q3LO31falu_DQ2oGsZdPlF3w75mAZUNcqjC4
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
 cookieJar:
   name: Default Jar
   meta:
