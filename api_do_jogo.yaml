@@ -12,7 +12,7 @@ collection:
     meta:
       id: req_0b75dcae58ea4e4496882897261fcc17
       created: 1785177436072
-      modified: 1785179436908
+      modified: 1785179787959
       isPrivate: false
       description: ""
       sortKey: -1785177436072
@@ -27,6 +27,53 @@ collection:
     headers:
       - name: Content-Type
         value: application/json
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://api2.dev.jedieduca.com.br/api/system_user/alterarSenha
+    name: alterar_senha
+    meta:
+      id: req_91ac24ddbfd7485789bd0c21db133591
+      created: 1785179778517
+      modified: 1785180838446
+      isPrivate: false
+      description: ""
+      sortKey: -1785179778517
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"login": "Gabriel Dure",
+        	"senhaAntiga": "teste",
+        	"senhaNova": "teste01"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://api2.dev.jedieduca.com.br/api/pergunta2/listarPergunta/4
+    name: listar_perguntas
+    meta:
+      id: req_1cc30f4f26da4b5982a06a2f0cd969aa
+      created: 1785180824019
+      modified: 1785180985535
+      isPrivate: false
+      description: ""
+      sortKey: -1785180824019
+    method: GET
     settings:
       renderRequestBody: true
       encodeUrl: true
