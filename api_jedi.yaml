@@ -1,10 +1,10 @@
 type: collection.insomnia.rest/5.0
 schema_version: "5.1"
-name: API - JEDi
+name: MAD API
 meta:
   id: wrk_701eff23bb124440993eb1318451cc84
   created: 1773856362182
-  modified: 1773861766757
+  modified: 1785177421067
   description: ""
 collection:
   - url: http://localhost:8000/api/v1/usuarios/login
@@ -213,7 +213,7 @@ collection:
     meta:
       id: req_c1d92dfb681b43ccbd16308fff203b4c
       created: 1773928888118
-      modified: 1773928896957
+      modified: 1785177294551
       isPrivate: false
       description: ""
       sortKey: -1773857632169.5

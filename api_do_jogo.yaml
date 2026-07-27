@@ -1,0 +1,50 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: API do Jogo
+meta:
+  id: wrk_5d54c5f1c10849dbbddc23ca6782d0ed
+  created: 1785177404662
+  modified: 1785177404662
+  description: ""
+collection:
+  - url: http://api2.dev.jedieduca.com.br/api/system_user/autenticar
+    name: autenticar_usuario
+    meta:
+      id: req_0b75dcae58ea4e4496882897261fcc17
+      created: 1785177436072
+      modified: 1785179436908
+      isPrivate: false
+      description: ""
+      sortKey: -1785177436072
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"login": "admin",
+        	"password": "memore@admin"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_e8c72642c3158ae0e6faf091858be9e90db00041
+    created: 1785177404670
+    modified: 1785177404670
+environments:
+  name: Base Environment
+  meta:
+    id: env_e8c72642c3158ae0e6faf091858be9e90db00041
+    created: 1785177404669
+    modified: 1785177404669
+    isPrivate: false
