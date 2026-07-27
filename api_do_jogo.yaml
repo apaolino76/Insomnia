@@ -12,7 +12,7 @@ collection:
     meta:
       id: req_0b75dcae58ea4e4496882897261fcc17
       created: 1785177436072
-      modified: 1785179787959
+      modified: 1785184660387
       isPrivate: false
       description: ""
       sortKey: -1785177436072
@@ -64,12 +64,12 @@ collection:
         send: true
         store: true
       rebuildPath: true
-  - url: http://api2.dev.jedieduca.com.br/api/pergunta2/listarPergunta/4
+  - url: http://api2.dev.jedieduca.com.br/api/pergunta2/listarPergunta/1
     name: listar_perguntas
     meta:
       id: req_1cc30f4f26da4b5982a06a2f0cd969aa
       created: 1785180824019
-      modified: 1785180985535
+      modified: 1785181092567
       isPrivate: false
       description: ""
       sortKey: -1785180824019
