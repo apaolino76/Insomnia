@@ -8,11 +8,11 @@ meta:
   description: ""
 collection:
   - url: http://api2.dev.jedieduca.com.br/api/system_user/autenticar
-    name: autenticar_usuario
+    name: autenticar_usuario_dev
     meta:
       id: req_0b75dcae58ea4e4496882897261fcc17
       created: 1785177436072
-      modified: 1785184660387
+      modified: 1786757158034
       isPrivate: false
       description: ""
       sortKey: -1785177436072
@@ -64,16 +64,98 @@ collection:
         send: true
         store: true
       rebuildPath: true
-  - url: http://api2.dev.jedieduca.com.br/api/pergunta2/listarPergunta/1
+  - url: http://api2.dev.jedieduca.com.br/api/pergunta2/sortearPerguntas
     name: listar_perguntas
     meta:
       id: req_1cc30f4f26da4b5982a06a2f0cd969aa
       created: 1785180824019
-      modified: 1785181092567
+      modified: 1785505621562
       isPrivate: false
       description: ""
       sortKey: -1785180824019
     method: GET
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: https://api2.jedieduca.com.br/api/partidasperguntas/ranking
+    name: partidas_perguntas
+    meta:
+      id: req_ae7d008809e84892a6480aa14108b0a5
+      created: 1785886789696
+      modified: 1785975032017
+      isPrivate: false
+      description: ""
+      sortKey: -1785886789696
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"idPartida": 112
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://api2.dev.jedieduca.com.br/api/partidasperguntas/ranking
+    name: partidas_perguntas_dev
+    meta:
+      id: req_75a093d1d22c41fe89122fa3fb7e1121
+      created: 1785887389579
+      modified: 1785887409132
+      isPrivate: false
+      description: ""
+      sortKey: -1785533806857.5
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"idPartida": 112
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: https://api2.jedieduca.com.br/api/system_user/autenticar
+    name: autenticar_usuario
+    meta:
+      id: req_61eb0e49f57249a98f84a4e4aa9f8a2a
+      created: 1786755849938
+      modified: 1786757149563
+      isPrivate: false
+      description: ""
+      sortKey: -1779552802545
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"login": "admin",
+        	"password": "memore@admin"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
     settings:
       renderRequestBody: true
       encodeUrl: true
