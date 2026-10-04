@@ -12,7 +12,7 @@ collection:
     meta:
       id: req_56332bb56eca4dd8aef3604498592e7d
       created: 1773856362192
-      modified: 1786058405142
+      modified: 1788633556525
       isPrivate: false
       description: ""
       sortKey: -1773856362192
@@ -78,12 +78,12 @@ collection:
         send: true
         store: true
       rebuildPath: true
-  - url: http://localhost:8000/api/v1/estatisticas/avaliacao
+  - url: http://api.dev.jedieduca.com.br/v1/estatisticas/avaliacao
     name: estatisticas_avaliacao
     meta:
       id: req_8e423ec4d0f84dbabd2f51587d3bd018
       created: 1773861445290
-      modified: 1773861673104
+      modified: 1791128937651
       isPrivate: false
       description: ""
       sortKey: -1773861445290
@@ -95,7 +95,7 @@ collection:
         disabled: false
     authentication:
       type: bearer
-      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzc0NDY2MjExLCJpYXQiOjE3NzM4NjE0MTEsInN1YiI6IjEifQ.sZrrHm4q3LO31falu_DQ2oGsZdPlF3w75mAZUNcqjC4
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzkxNzMzNjk3LCJpYXQiOjE3OTExMjg4OTcsInN1YiI6IjQifQ.9VYzHDEmRpfVdakWMjuGmgJZ1Y2j_Toh38VQt5h77qc
     settings:
       renderRequestBody: true
       encodeUrl: true
@@ -109,7 +109,7 @@ collection:
     meta:
       id: req_1ac1ca3f3eb442d59355f01a03cdf988
       created: 1773928169018
-      modified: 1785787455010
+      modified: 1790020530334
       isPrivate: false
       description: ""
       sortKey: -1773928169018
@@ -121,7 +121,7 @@ collection:
         disabled: false
     authentication:
       type: bearer
-      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzg2MTMzMjY2LCJpYXQiOjE3ODU1Mjg0NjYsInN1YiI6IjQifQ.Clz-sk9g2hRVcEydNG4pL2JLgxKKeK7DevLmJhWm9Ik
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzkwNjI1MzA3LCJpYXQiOjE3OTAwMjA1MDcsInN1YiI6IjQifQ.n_QmiyuZ1RaXPS8KHfL_iXDdhhiD3ozf0IHwGMdk8dg
     settings:
       renderRequestBody: true
       encodeUrl: true
@@ -156,12 +156,12 @@ collection:
         send: true
         store: true
       rebuildPath: true
-  - url: http://localhost:8000/api/v1/estatisticas/categoria_turma
+  - url: http://api.dev.jedieduca.com.br/v1/estatisticas/categoria_turma
     name: estatisticas_categoria_turma
     meta:
       id: req_deb3717272f14ef99439435747d31447
       created: 1773928732075
-      modified: 1773928742485
+      modified: 1788633588599
       isPrivate: false
       description: ""
       sortKey: -1773859266364
@@ -173,7 +173,7 @@ collection:
         disabled: false
     authentication:
       type: bearer
-      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzc0NDY2MjExLCJpYXQiOjE3NzM4NjE0MTEsInN1YiI6IjEifQ.sZrrHm4q3LO31falu_DQ2oGsZdPlF3w75mAZUNcqjC4
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzg5MjM3OTAyLCJpYXQiOjE3ODg2MzMxMDIsInN1YiI6IjQifQ.rmfQx9RzSoeDQy_XdQ-PnPvwDt35QIZBULESnVK9wa4
     settings:
       renderRequestBody: true
       encodeUrl: true
@@ -208,12 +208,12 @@ collection:
         send: true
         store: true
       rebuildPath: true
-  - url: http://localhost:8000/api/v1/estatisticas/perfil_noticia
+  - url: http://api.dev.jedieduca.com.br/v1/estatisticas/perfil_noticia
     name: estatisticas_perfil_noticia
     meta:
       id: req_c1d92dfb681b43ccbd16308fff203b4c
       created: 1773928888118
-      modified: 1785177294551
+      modified: 1788633155583
       isPrivate: false
       description: ""
       sortKey: -1773857632169.5
@@ -225,7 +225,7 @@ collection:
         disabled: false
     authentication:
       type: bearer
-      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzc0NDY2MjExLCJpYXQiOjE3NzM4NjE0MTEsInN1YiI6IjEifQ.sZrrHm4q3LO31falu_DQ2oGsZdPlF3w75mAZUNcqjC4
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzg5MjM3OTAyLCJpYXQiOjE3ODg2MzMxMDIsInN1YiI6IjQifQ.rmfQx9RzSoeDQy_XdQ-PnPvwDt35QIZBULESnVK9wa4
     settings:
       renderRequestBody: true
       encodeUrl: true
@@ -260,6 +260,95 @@ collection:
     authentication:
       type: bearer
       token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzg2NjYxNTYxLCJpYXQiOjE3ODYwNTY3NjEsInN1YiI6IjQifQ.5Bn1vnK_vJLu1g5EnUg6uXTsQXeoJKkbp_Jb7V0MXS4
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://api.dev.jedieduca.com.br/v1/estatisticas/perfil_escolas
+    name: estatisticas_perfil_escolas
+    meta:
+      id: req_a2ff822e65ba4fce8de255c3a42a1cc9
+      created: 1788633219260
+      modified: 1790120648259
+      isPrivate: false
+      description: ""
+      sortKey: -1788633219260
+    method: GET
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzkwNzIxNTY3LCJpYXQiOjE3OTAxMTY3NjcsInN1YiI6IjQifQ.uALQlsh3ZoF4kh1nJmCqDSR-wIqN9F0xIMojpdvDmRU
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://api.dev.jedieduca.com.br/v1/estatisticas/ranking_partidas
+    name: estatisticas_ranking_partidas
+    meta:
+      id: req_7758918cdff140a98ece59b286bad266
+      created: 1789928856515
+      modified: 1789928895038
+      isPrivate: false
+      description: ""
+      sortKey: -1773858721632.5
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.4.0
+        description: ""
+        disabled: false
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzkwNTMzNjgwLCJpYXQiOjE3ODk5Mjg4ODAsInN1YiI6IjQifQ.0HXcI-nfCKUOp6P2IYpKKqUHf9O5U1Vk56BSyYVvfxY
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://api.dev.jedieduca.com.br/v1/estatisticas/analise_idade
+    name: estatisticas_analise_idade
+    meta:
+      id: req_6bbcbe78fdf74471bd124f40e825a578
+      created: 1790116685684
+      modified: 1790771941555
+      isPrivate: false
+      description: ""
+      sortKey: -1790116685684
+    method: GET
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzkxMzc2NzIzLCJpYXQiOjE3OTA3NzE5MjMsInN1YiI6IjQifQ.s62nLz4fNaUKj_Hb7vftHBHsDMONH_hMk_4AwDWTppg
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://api.dev.jedieduca.com.br/v1/estatisticas/capacidade_critica
+    name: estatisticas_apriori
+    meta:
+      id: req_fc3a07b9e991418ab9916f619fe9b693
+      created: 1790209171343
+      modified: 1790771866823
+      isPrivate: false
+      description: ""
+      sortKey: -1787260004478
+    method: GET
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzkwNzIxNTY3LCJpYXQiOjE3OTAxMTY3NjcsInN1YiI6IjQifQ.uALQlsh3ZoF4kh1nJmCqDSR-wIqN9F0xIMojpdvDmRU
     settings:
       renderRequestBody: true
       encodeUrl: true
